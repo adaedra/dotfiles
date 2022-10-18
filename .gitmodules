@@ -1,3 +1,6 @@
 [submodule "vim/pack/dotfiles/start/vim-gruvbox8"]
 	path = vim/pack/dotfiles/start/vim-gruvbox8
 	url = https://github.com/lifepillar/vim-gruvbox8.git
+[submodule "vim/pack/dotfiles/start/ale"]
+	path = vim/pack/dotfiles/start/ale
+	url = https://github.com/dense-analysis/ale.git
