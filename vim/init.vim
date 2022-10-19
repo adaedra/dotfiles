@@ -30,3 +30,17 @@ colorscheme gruvbox8_hard
 
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_insert_leave = 0
+
+let g:fzf_layout = {
+    \ 'window': {
+        \ 'width': 0.9,
+        \ 'height': 0.4,
+        \ 'yoffset': 0,
+        \ 'border': 'none',
+        \ }
+     \ }
+let g:fzf_colors = {
+    \ 'bg': ['bg', 'NormalMode'],
+    \ }
+
+nnoremap <silent> ,, :call fzf#run(fzf#wrap({'source':'rg --files'}))<CR>
