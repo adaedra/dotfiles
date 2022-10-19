@@ -35,12 +35,16 @@ let g:fzf_layout = {
     \ 'window': {
         \ 'width': 0.9,
         \ 'height': 0.4,
-        \ 'yoffset': 0,
-        \ 'border': 'none',
+        \ 'yoffset': 0.2,
+        \ 'border': 'sharp',
         \ }
      \ }
 let g:fzf_colors = {
     \ 'bg': ['bg', 'NormalMode'],
+    \ 'bg+': ['bg', 'CursorLine'],
+    \ 'fg+': ['fg', 'Normal'],
+    \ 'border': ['fg', 'StatusLineNC'],
+    \ 'prompt': ['fg', 'Identifier'],
     \ }
 
-nnoremap <silent> ,, :call fzf#run(fzf#wrap({'source':'rg --files'}))<CR>
+nnoremap <silent> ,, :call fzf#run(fzf#wrap({'source':'rg --files','options':['--inline-info','--preview=bat --color=always --theme=ansi --decorations=never -r :100 {}','--preview-window=right,50%,border-left','--prompt=» ','--pointer= ']}))<CR>
