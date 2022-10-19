@@ -4,9 +4,3 @@
 [submodule "vim/pack/dotfiles/start/ale"]
 	path = vim/pack/dotfiles/start/ale
 	url = https://github.com/dense-analysis/ale.git
-[submodule "vim/pack/dotfiles/start/unite.vim"]
-	path = vim/pack/dotfiles/start/unite.vim
-	url = https://github.com/Shougo/unite.vim.git
-[submodule "vim/pack/dotfiles/start/vimproc.vim"]
-	path = vim/pack/dotfiles/start/vimproc.vim
-	url = https://github.com/Shougo/vimproc.vim.git

@@ -30,6 +30,3 @@ colorscheme gruvbox8_hard
 
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_insert_leave = 0
-
-nnoremap <silent> ,, :Unite -direction=belowright -winheight=10 -start-insert file_rec/git<CR>
-nnoremap <silent> ,b :Unite -direction=belowright -winheight=10 -auto-resize buffer<CR>
