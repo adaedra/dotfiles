@@ -10,3 +10,9 @@
 [submodule "nvim/pack/adaedra/start/gruvbox8"]
 	path = nvim/pack/adaedra/start/gruvbox8
 	url = https://github.com/lifepillar/vim-gruvbox8.git
+[submodule "nvim/pack/adaedra/start/plenary"]
+	path = nvim/pack/adaedra/start/plenary
+	url = https://github.com/nvim-lua/plenary.nvim.git
+[submodule "nvim/pack/adaedra/start/telescope"]
+	path = nvim/pack/adaedra/start/telescope
+	url = https://github.com/nvim-telescope/telescope.nvim.git

@@ -13,6 +13,7 @@ function config.apply(o)
     vim.opt.expandtab = true
 
     require('adaedra.theme').apply()
+    require('adaedra.keymap').apply()
 end
 
 return config
