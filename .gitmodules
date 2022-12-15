@@ -7,3 +7,6 @@
 [submodule "vim/pack/dotfiles/start/fzf"]
 	path = vim/pack/dotfiles/start/fzf
 	url = https://github.com/junegunn/fzf.git
+[submodule "nvim/pack/adaedra/start/gruvbox8"]
+	path = nvim/pack/adaedra/start/gruvbox8
+	url = https://github.com/lifepillar/vim-gruvbox8.git
